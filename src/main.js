@@ -22,7 +22,6 @@ function setCardType(type) {
   ccBgColor02.setAttribute("fill", colors[type][1])
   ccLogo.setAttribute("src", `cc-${type}.svg`)
 }
-
 globalThis.setCardType = setCardType
 
 const securityCode = document.getElementById("security-code")
